@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    /* line-height: 1.5; */
+    /* background-color: #3d3a4b; */
+}
+
+@font-face {
+    font-family: 'Gang of Three';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gangOfThreeFont'), url('gangOfThreeFont/go3v2.woff') format('woff');
+}
+
+h1 {
+    color: #fe3c3a;
+    font-family: 'Gang of Three';
+    /* font-size: 14em; */
+    font-size: 10em;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 50%;
+    line-height: 1.1;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #dafd54;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #fe3c3a;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: #b0b0b0;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.nav {
+    padding: 20px 40px 0px 40px;
+    background-color: #3d3a4b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    color: #fe3c3a;
+}
+
+span {
+    color: #008b5c;
+}
+
+.main {
+    background-color: #3d3a4b;
+    text-align: center;
+    /* background-image: url("images/pngaaa.com-4958465.png"); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+
+
+.address {
+    padding: 20px;
+}
+
+.menu-link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon1 {
+    height: 60px;
+    /* margin: 40px 0 10px 0; */
+    margin-bottom: 10px;
+}
+
+.icon2 {
+    height: 60px;
+    margin-top: 10px;
+    /* margin: 10px 0 20px 0; */
+}
+
+.reserve-form {
+    font-family: "Montserrat", sans-serif;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+label  {
+    font-family: "Montserrat", sans-serif;
+    color: #b0b0b0;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+input   {
+    background: transparent;
+    width: 14rem;
+    height: 2.4rem;
+    font-size: 0.9rem;
+    /* border: 2px solid rgba(116, 116, 116, 0.2); */
+    border: 2px solid #008b5c;
+    padding: 5px;
+}
+
+.form-input  {
+    color: #008b5c;
+    padding: 4px;
+    background-color: #3d3a4b;
+    border: 2px solid #008b5c;
+
+    width: 14rem;
+    height: 2.4rem;
+}
+
+::placeholder   {
+    color: #008b5c;
+    padding: 4px;
+    background-color: #3d3a4b;
+}
+
+
+button  {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    width: 14rem;
+    height: 2.4rem;
+    border: 2px solid #008b5c;
+    font-size: 1rem;
+    background-color: #008b5c;
+    cursor: pointer;
+    color: #D8BFD8;
+    box-shadow: 0 0 5px rgba(76, 76, 76, 0.75);
+}
+
+button:hover    {
+    background-color: #9E7BB5;
+    color: #008b5c;
+    border-color: #9E7BB5;
+}
+
+
+.link-to-menu>a:hover {
+    color: #fe3c3a;
+}
+
+
+
+.footer>p {
+    color: #008b5c;
+    background-color: #3d3a4b;
+    text-align: center;
+}
+
+.grid-wrapper {
+    margin: 40px;
+}
+
+.menu-grid {
+    /* padding: 20px; */
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1.2rem;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 4.5em;
+    }
+}
