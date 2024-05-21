@@ -27,6 +27,7 @@ h1 {
 h2 {
     font-family: "Montserrat", sans-serif;
     color: #dafd54;
+    margin: 15px;
 }
 
 h3 {
@@ -106,7 +107,7 @@ span {
 
 .reserve-form {
     font-family: "Montserrat", sans-serif;
-    max-width: 50vw;
+    max-width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -156,14 +157,14 @@ button  {
     font-size: 1rem;
     background-color: #008b5c;
     cursor: pointer;
-    color: #D8BFD8;
+    color: #b0b0b0;
     box-shadow: 0 0 5px rgba(76, 76, 76, 0.75);
 }
 
 button:hover    {
-    background-color: #9E7BB5;
+    background-color: #b0b0b0;
     color: #008b5c;
-    border-color: #9E7BB5;
+    border-color: #b0b0b0;
 }
 
 
@@ -171,9 +172,17 @@ button:hover    {
     color: #fe3c3a;
 }
 
+.sign-up    {
+    margin-top: 40px;
+}
 
+.footer {
+    height: 40px;
+}
 
 .footer>p {
+    padding-top: 40px;
+    padding-bottom: 20px;
     color: #008b5c;
     background-color: #3d3a4b;
     text-align: center;
@@ -201,6 +210,19 @@ button:hover    {
 /* The width is 100%, when the viewport is 800px or smaller */
 @media screen and (max-width: 800px) {
     h1 {
-        font-size: 4.5em;
+        font-size: 4em;
+        text-align: center;
+        margin: 0;
+    }
+    .reserve-form   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
     }
 }
