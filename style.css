@@ -121,22 +121,11 @@ label  {
     font-size: 1.3rem;
 }
 
-input   {
-    background: transparent;
-    width: 14rem;
-    height: 2.4rem;
-    font-size: 0.9rem;
-    /* border: 2px solid rgba(116, 116, 116, 0.2); */
-    border: 2px solid #008b5c;
-    padding: 5px;
-}
-
-.form-input  {
+.form-input, .input-value  {
     color: #008b5c;
     padding: 4px;
     background-color: #3d3a4b;
     border: 2px solid #008b5c;
-
     width: 14rem;
     height: 2.4rem;
 }
@@ -174,6 +163,15 @@ button:hover    {
 
 .sign-up    {
     margin-top: 40px;
+}
+
+.email-input   {
+    background: transparent;
+    width: 14rem;
+    height: 2.4rem;
+    font-size: 0.9rem;
+    border: 2px solid #008b5c;
+    padding: 5px;
 }
 
 .footer {
