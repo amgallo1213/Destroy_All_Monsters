@@ -216,14 +216,8 @@ button:hover    {
         flex-direction: column;
         align-items: center;
     }
-    .input-value    {
-        color: #008b5c;
-        margin: 10px;
-        padding: 4px;
-        background-color: #3d3a4b;
-        border: 2px solid #008b5c;
-        width: 14rem;
-        height: 2.4rem;
+    .form-input {
+        appearance: none;
     }
     .email-form {
         display: flex;
