@@ -107,10 +107,11 @@ span {
 
 .reserve-form {
     font-family: "Montserrat", sans-serif;
-    max-width: 80vw;
+    /* max-width: 90vw; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 label  {
@@ -123,6 +124,7 @@ label  {
 
 .form-input, .input-value  {
     color: #008b5c;
+    margin: 10px;
     padding: 4px;
     background-color: #3d3a4b;
     border: 2px solid #008b5c;
@@ -154,6 +156,10 @@ button:hover    {
     background-color: #b0b0b0;
     color: #008b5c;
     border-color: #b0b0b0;
+}
+
+.reserve-button {
+    margin-top: 25px;
 }
 
 
@@ -216,6 +222,15 @@ button:hover    {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .input-value    {
+        color: #008b5c;
+        margin: 10px;
+        padding: 4px;
+        background-color: #3d3a4b;
+        border: 2px solid #008b5c;
+        width: 14rem;
+        height: 2.4rem;
     }
     .email-form {
         display: flex;
