@@ -16,7 +16,6 @@
 h1 {
     color: #fe3c3a;
     font-family: 'Gang of Three';
-    /* font-size: 14em; */
     font-size: 10em;
     margin-left: 100px;
     margin-right: 100px;
@@ -46,16 +45,16 @@ a {
     color: #b0b0b0;
 }
 
+a:hover {
+    color: #fe3c3a;
+}
+
 .nav {
     padding: 20px 40px 0px 40px;
     background-color: #3d3a4b;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.nav-item:hover {
-    color: #fe3c3a;
 }
 
 span {
@@ -65,7 +64,6 @@ span {
 .main {
     background-color: #3d3a4b;
     text-align: center;
-    /* background-image: url("images/pngaaa.com-4958465.png"); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,8 +75,6 @@ span {
     width: 150px;
     margin-top: 40px;
 }
-
-
 
 .address {
     padding: 20px;
@@ -95,23 +91,22 @@ span {
 
 .icon1 {
     height: 60px;
-    /* margin: 40px 0 10px 0; */
     margin-bottom: 10px;
 }
 
 .icon2 {
     height: 60px;
     margin-top: 10px;
-    /* margin: 10px 0 20px 0; */
 }
 
 .reserve-form {
     font-family: "Montserrat", sans-serif;
-    /* max-width: 90vw; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 label  {
@@ -143,7 +138,7 @@ button  {
     font-family: "Montserrat", sans-serif;
     margin-top: 2rem;
     width: 14rem;
-    height: 2.4rem;
+    height: 2.35rem;
     border: 2px solid #008b5c;
     font-size: 1rem;
     background-color: #008b5c;
@@ -162,13 +157,12 @@ button:hover    {
     margin-top: 25px;
 }
 
-
-.link-to-menu>a:hover {
-    color: #fe3c3a;
-}
-
 .sign-up    {
     margin-top: 40px;
+}
+
+.subscribe-button   {
+    margin-top: 2px;
 }
 
 .email-input   {
@@ -197,7 +191,6 @@ button:hover    {
 }
 
 .menu-grid {
-    /* padding: 20px; */
     width: 50vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
