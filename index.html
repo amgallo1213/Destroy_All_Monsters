@@ -14,16 +14,11 @@
 
 <body>
 
-
     <header>
         <nav class="nav">
             <div class="nav-links">
                 <a href="index.html" >HOME <span>|</span> </a>
                 <a href="menu.html" class="nav-item">MENU</a>
-            </div>
-            <div class="burger-menu">
-                <div class="burger-menu-div"></div>
-                <div class="burger-menu-div"></div>
             </div>
         </nav>
     </header>
@@ -80,16 +75,26 @@
         <div class="sign-up">
             <p>sign up for news, events & much more</p>
             <div class="email-signup">
-                <form action="submit" class="email-form">
+                <form class="email-form">
                     <input type="text" placeholder="Enter your email here" id="email-signup" class="email-input">
-                    <button class="subscribe-button">Subscribe Now</button>
+                    <button class="subscribe-button" id="myBtn">Subscribe Now</button>
                 </form>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Thank you for signing up!</p>
             </div>
         </div>
     </main>
     <footer class="footer">
         <p>copyright 2024 DAMco.</p>
     </footer>
+    
+    <script src="script.js"></script>
+
 
 </body>
 
