@@ -51,7 +51,8 @@ a:hover {
 
 .nav {
     padding: 20px 40px 0px 40px;
-    background-color: #3d3a4b;
+    /* background-color: #3d3a4b; */
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,7 +63,8 @@ span {
 }
 
 .main {
-    background-color: #3d3a4b;
+    /* background-color: #3d3a4b; */
+    background-color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -90,13 +92,18 @@ span {
 }
 
 .icon1 {
-    height: 60px;
+    height: 40px;
     margin-bottom: 10px;
+    background-color: #008b5c;
+    border-radius: 50%;
 }
 
 .icon2 {
-    height: 60px;
+    height: 40px;
     margin-top: 10px;
+    /* background-color: #dafd54; */
+    background-color: #008b5c;
+    border-radius: 50%;
 }
 
 .reserve-form {
@@ -122,7 +129,8 @@ label {
     color: #008b5c;
     margin: 10px;
     padding: 4px;
-    background-color: #3d3a4b;
+    /* background-color: #3d3a4b; */
+    background-color: black;
     border: 2px solid #008b5c;
     width: 14rem;
     height: 2.4rem;
@@ -131,7 +139,8 @@ label {
 ::placeholder {
     color: #008b5c;
     padding: 4px;
-    background-color: #3d3a4b;
+    /* background-color: #3d3a4b; */
+    background-color: black;
 }
 
 
@@ -250,7 +259,8 @@ button:hover {
     padding-top: 40px;
     padding-bottom: 20px;
     color: #008b5c;
-    background-color: #3d3a4b;
+    /* background-color: #3d3a4b; */
+    background-color: black;
     text-align: center;
 }
 
