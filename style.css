@@ -19,8 +19,9 @@ h1 {
     font-size: 10em;
     margin-left: 100px;
     margin-right: 100px;
-    max-width: 50%;
+    /* max-width: 50%; */
     line-height: 1.1;
+    text-align: center;
 }
 
 h2 {
@@ -63,7 +64,6 @@ span {
 }
 
 .main {
-    /* background-color: #3d3a4b; */
     background-color: black;
     text-align: center;
     display: flex;
@@ -76,6 +76,30 @@ span {
     height: 150px;
     width: 150px;
     margin-top: 40px;
+}
+
+.hidden {
+    position: absolute;
+    transform: translateX(-1050px);
+    opacity: 0;
+    transition: 6s all ease;
+
+}
+
+.hidden.active  {
+    transform: translateX(1500px);
+    opacity: 1;
+    z-index: 1000;
+    /* margin: 100px; */
+    margin-top: -400px;
+}
+
+.roar   {
+    color: #dafd54;
+    font-size: 12rem;
+    font-weight: 900;
+    /* margin-top: 0; */
+    margin-top: -300px;
 }
 
 .address {
@@ -198,6 +222,7 @@ button:hover {
 
     padding-top: 100px;
 }
+
 
 .modal-content {
     background-color: #fe3c3a;
