@@ -269,6 +269,11 @@ button:hover {
         height: 400px;
     }
 
+    [popover] {
+        transition: translate 0.7s ease-out, display 0.7s ease-out allow-discrete;
+        translate: 0 -25rem;
+    }
+
     .reserve-form {
         display: flex;
         flex-direction: column;
@@ -289,7 +294,7 @@ button:hover {
 
 
 
-.hidden {
+/* .hidden {
     position: absolute;
     transform: translateX(-1050px);
     opacity: 0;
@@ -308,4 +313,4 @@ button:hover {
     font-size: 12rem;
     font-weight: 900;
     margin-top: -300px;
-}
+} */
